@@ -1,0 +1,108 @@
+/* General container styles */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .unit-converter-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Unit type buttons */
+  .unit-types button {
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .unit-types button:hover {
+    background-color: #0056b3;
+  }
+  
+  .unit-types button.active {
+    background-color: #0056b3;
+  }
+  
+  /* Conversion section */
+  .conversion-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .equals {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 18px;
+    padding: 8px;
+  }
+  
+  /* Reset button */
+  button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #a71d2a;
+  }
+  
+  /* media query */
+  @media (max-width: 768px) {
+    .container{
+        width: 90%;
+    }
+  }
